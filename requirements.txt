@@ -1,0 +1,12 @@
+ninja  # For faster builds.
+psutil
+ray == 2.12.0 # only python <= 3.11.0
+sentencepiece  # Required for LLaMA tokenizer.
+numpy
+torch == 2.3.1
+transformers 
+xformers
+fastapi
+uvicorn[standard]
+pydantic == 1.10.13  # Required for OpenAI server.
+aioprometheus[starlette]
